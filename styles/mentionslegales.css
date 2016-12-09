@@ -1,0 +1,25 @@
+h2
+{
+	color: #e95a0c;
+	font: normal normal 600 20px 'Raleway';
+	text-transform: capitalize;
+	padding: 0px;
+	margin: 0px;
+	margin-bottom: 17px;
+}
+
+h3
+{
+	font: normal normal 500 15px 'Raleway', sans-serif;
+	text-transform: uppercase;
+	color: #4d4d4d;
+	border: none;
+	padding: 15px 0 5px 0;
+}
+
+p, li
+{
+	color: #4d4d4d;
+	font: normal normal 300 13px 'Open Sans', Helvetica, Arial, sans-serif;
+	text-decoration: none;
+}

@@ -1,0 +1,5 @@
+body{background: url(../img/body_background.png) #fff top center no-repeat; margin: auto; position: relative; width: 100%;}
+.page{background: url(../img/grille.png) transparent repeat-x; display: block; margin: auto; position: relative; height: 396px; width: 100%; margin-top: 14%;}
+img{margin: auto; display: block; position: relative;}
+h1{color: #e95a0c; font: normal normal 500 48px 'Raleway', sans-serif;text-align: center; }
+.content{ display: block; margin: auto; position: relative; top: 100px;}

@@ -1,0 +1,223 @@
+
+.googleMap {
+	height: 500px;
+	width: 700px;
+	display:block;
+	position: relative;
+}
+#carteMain {
+	height: 500px;
+	width: 100%;
+	border:1px solid #e5e5e5;
+	background:#eeeeee;
+	display:table;
+	margin: 20px auto 0 auto;
+}
+
+#conteneur li {
+    cursor: pointer;
+}
+#carte {
+	width:780px;
+	border:1px solid #b8b8b8;
+	background:#eee;
+	margin-bottom:10px;
+	display:table;
+}
+
+#cartePopUp {
+	width: 395px;
+	padding-left:27px;
+	position: absolute;
+	top:0;
+	display:none;
+	z-index: 20;
+}
+#cartePopUp .carteWrapper {
+	width: 398px;
+	position:absolute;
+	display:table;
+	background: #fff;
+	border: 5px solid #ccb;
+}
+#cartePopUp .arrow {
+	position   : absolute;
+	background : url(../img/infowindow_arrow.png) no-repeat;
+	width      : 27px;   
+	height     : 40px;   
+	margin-top : 10px;   
+	margin-left:-20px;  
+	z-index    : 10;     
+}
+#cartePopUp .carteWrapper .top {
+	background: none; /*url(../img/infowindow_top.png) no-repeat;*/
+	width: 598px;
+	height: 20px;
+}
+#cartePopUp .carteWrapper .content {
+	background: transparent; /*url(../img/infowindow_content.png) no-repeat left bottom;*/
+	width: 598px;
+	color: #000;
+	padding-left:18px;
+	padding-bottom:20px;
+	border: none;
+
+}
+#cartePopUp .carteWrapper .content .container {
+	width: 450px;
+	min-height:70px;
+	max-height:350px;
+	overflow:visible;
+}
+#cartePopUp .carteWrapper .content .container .left {
+	width: 40%;
+	float: left;
+	border-right: 1px dotted #999;
+	display:table;
+	min-height:160px;
+	padding-right: 10px;
+}
+#cartePopUp .carteWrapper .content .container .left .nommagasin {
+	border-bottom: 1px dotted #4d4d4d;
+	width: 225px;
+	font-weight: 900;
+	font-size: 16px;
+	margin-bottom: 10px;
+	padding: 5px 0;
+}
+#cartePopUp .carteWrapper .content .container .left .adressemagasin, #cartePopUp .carteWrapper .content .container .left .horairesmagasin {
+	font-size: 12px;
+	margin: 20px 0;
+	width: 235px;
+	color: #000;
+}
+
+#cartePopUp .carteWrapper .content .container .left .adressemagasin a, #cartePopUp .carteWrapper .content .container .left .horairesmagasin a{
+	color: #000;
+}
+
+#cartePopUp .carteWrapper .content .container .left .infosmagasin {
+	width: 225px;	
+	margin-top: 10px;
+	font-style:italic;	
+	font-size: 13px;
+	color: #e95a0c;
+}
+
+#cartePopUp .carteWrapper .content .container .right {
+	width: 100px;
+	float: left;
+	padding-left: 10px;
+	font: 16px;
+	font-weight: bold;
+}
+#cartePopUp .carteWrapper .content .container .right .urunlogo {
+	margin-top: 5px;
+	cursor:pointer;
+}
+.accordionButton {
+	font-weight:600;
+	width: 320px;
+	margin-right:20px;
+	float: left;
+	border-bottom: 1px dotted #999;
+	cursor: pointer;
+	height:20px;
+	padding: 5px 0;
+	text-align: left;
+	font-family: 'Open Sans', Helvetica, Arial;
+}
+.accordionContent {
+	clear:both;
+	padding-top:10px;
+}
+.on {
+	font-weight:700;
+	cursor:pointer;
+	color:#111;
+}
+.over {
+	font-weight:700;
+}
+.mapCluster {
+	cursor:pointer !important;
+}
+
+.cluster {
+	color:#ff931e;
+	text-align:center;
+	font-family: 'Open Sans';
+	font-size:16px;
+	font-weight:600;
+	cursor:pointer !important;
+}
+.cluster-1{
+	background: url(../img/marqueurs/afdb1.png);
+	line-height:36px;
+	width: 58px;
+	height: 54px;
+}
+.cluster-2{
+	background: url(../img/marqueurs/afdb2.png);
+	line-height:53px;
+	width: 84px;
+	height: 84px;
+}
+.cluster-3{
+	background: url(../img/marqueurs/afdb3.png);
+	line-height:75px;
+	width: 120px;
+	height: 120px;
+}
+
+#body-content, #body-content-page{
+	display: block;
+	position: relative;
+	width: 705px;
+	height: 700px;
+	float: left;
+}
+
+#itineraire{
+	width: 100%;
+	position: relative;
+	display: block;
+	float: left;
+	padding-top: 30px;
+}
+
+#map{display: block; position: relative; width: 700px; padding:0; margin: auto; float: left;}
+
+#btnItineraire{
+	color: #444;
+	background-color: transparent;
+	border: 2px solid #444;
+	padding: 8px;
+	font-weight: 700;
+
+}
+#formItineraire{
+	width: 100%;
+	position: relative;
+	display: block;
+	margin: auto;
+	float: left;
+}
+
+/*#formItineraire > div.row{position:relative; display:block; margin:5px auto; width: 100%;}
+#formItineraire > div.row > label{font-size: 12px; padding: 0px 5px; text-align: right; width: 50px; position: relative; display: block; float: left; line-height: 26px; margin: auto;}
+#formItineraire > div.row > input{font-size: 11px; padding: 5px 5px; position: relative; display: block; width: 170px;}*/
+
+td.adp-text { font-weight: 600; font-size: 15px; text-align: center;}
+.adp, .adp-details, .adp-legal{text-align: center;}
+.adp-step, .adp-substep{text-align: left;}
+/*#formItineraire input{float: right;}*/
+.row{display: block;margin: auto;position: relative;width: 705px;}
+label.col1, .col1, label.col2, .col2, label.col3, .col3{text-align: center;margin: 0 2%; position: relative;display: block; float: left;height: 24px;}
+label.col1, label.col2{float: left;text-align: left;}
+label.col1, .col1, label.col2, .col2{width: 35%;}
+.col3{height: 30px; width: 16%;}
+#popup_container{background: rgba(000,000,000, 0.5);display: block; position: fixed;height: 100%;width: 100%;top: 0;left: 0;z-index: 10;}
+#listItineraire{width: 500px;overflow-x: hidden;height: 450px;display: block;margin: auto;background: #ffffff; box-shadow: 0 -8px 20px #333;}
+#header, #body-sousmenu{z-index: 0;}
+#close {position: relative;width: 40px;cursor: pointer;top: -320px;display: block;right: -480px;}

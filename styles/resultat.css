@@ -1,0 +1,109 @@
+/*----------------------------------------------------------*/
+
+#body-content-page-resultat-libelle-liens
+	{
+		width: 737px;
+		color: #999 ;
+		font-family: 'Open Sans', Helvetica, Arial ;
+		font-size: 14px;
+		letter-spacing: 1px;
+		padding-bottom: 8px;
+	}
+
+#body-content-page-resultat-libelle-nb
+	{
+		color: #e95a0c;
+		font: normal normal 500 20px 'Raleway';
+		padding: 0px;
+		margin: 0px;
+		margin-bottom: 17px;
+	}
+
+#body-content-page table
+	{
+		width: 100% ;
+		background-image: url(../images/fond_bloc.png);
+		border-bottom: 1px solid #ccc;
+		border-top: 1px solid #ccc;
+		background-position: top left;
+		background-repeat: repeat-x repeat-y;
+		padding: 30px 2px;
+	}
+
+
+#body-content-page td{background: none; height: 264px;}
+
+#body-content-page td
+	{
+		border: none;
+		height: 238px;
+		width: 196px;
+		padding: 0px;
+		margin: auto;
+		vertical-align: top;
+		cursor: pointer;
+		position: relative;
+	}
+	
+.resultat-titre
+	{
+		background-color: #4d4d4d;
+		height: 39px;
+		width: 196px;
+	}
+.resultat-titre, .resultat-image{border: 1px solid  #f2f2f2;}
+.resultat-titre, .resultat-titre-a, .resultat-image, .resultat-image img{position: relative;display: block;margin: auto;²}
+	
+	.resultat-titre-a
+		{
+			display: block;
+			font: normal normal normal 13px 'Open Sans',sans-serif;
+			width: 164px;			
+			color: white;
+			clear: both;
+			text-transform: capitalize;
+		}
+	
+	
+
+	.resultat-titre a:hover
+		{
+			text-decoration: none;
+			color: #e95a0c;
+		}
+		
+	.resultat-titre a
+		{
+			color: #fff;
+			 text-align: center;
+		}
+					
+	.resultat-image
+		{
+			display: block;
+			clear: both;
+			width: 196px;
+			height: 156px;
+			vertical-align: middle;
+			text-align: center;
+			margin: auto;
+			padding: 0px;
+			background-color: #fff;
+		}
+		
+		
+		.resultat-image img
+			{
+				/* Code standard */ 
+				max-width: 186px !important;
+				max-height: 146px !important; 
+
+				/* Code spécial IE */ 
+				_width: expression((this.offsetWidth>=this.offsetHeight) ? 
+				  Math.min(parseInt(this.offsetWidth), 196 ) : true); 
+				_height: expression((this.offsetHeight>this.offsetWidth) ? 
+				  Math.min(parseInt(this.offsetHeight), 156 ) : true);
+
+			}
+
+/*----------------------------------------------------------*/

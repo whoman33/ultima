@@ -1,0 +1,166 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: auto;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	color: #0066A7;
+	background-color: #fff;
+	font-family: Lato;
+	font-weight: 700; 
+}
+.googleMap {
+	height: 100%;
+	width: 100%;
+}
+#carteMain {
+	width:775px;
+	border:1px solid #b8b8b8;
+	background:#eeeeee;
+	display:table;
+	/*margin-top:10px;*/
+}
+
+#conteneur li {
+    cursor: pointer;
+}
+#carte {
+	width:780px;
+	border:1px solid #b8b8b8;
+	background:#eee;
+	margin-bottom:10px;
+	display:table;
+}
+
+#cartePopUp {
+	background: #fff;
+	width: 395px;
+	position: absolute;
+	z-index:9999;
+	display:none;
+}
+#cartePopUp .carteWrapper {
+	width: 320px;
+	position:relative;
+	z-index:9;
+	display:table;
+	background: #fff;
+}
+#cartePopUp .arrow {
+	position:absolute;
+	background:url(../img/infowindow_arrow.png) no-repeat;
+	width:27px;
+	height:40px;
+	z-index:10;
+}
+#cartePopUp .carteWrapper .top {
+	/*background:url(../img/infowindow_top.png) no-repeat;*/
+	width: 303px;
+}
+#cartePopUp .carteWrapper .content {
+	background:#fff;
+	width: 303px;
+	z-index: 9999;
+	color: #0066A7;
+	padding-left:18px;
+	padding-bottom:20px;
+	height: 538px;
+	border: none;
+}
+#cartePopUp .carteWrapper .content .container {
+	width: 555px;
+	min-height:120px;
+	max-height:350px;
+	/*overflow:auto;*/
+}
+#cartePopUp .carteWrapper .content .container .left {
+	width: 240px;
+	float: left;
+	border: 0px dotted #999;
+	display:table;
+	min-height:160px;
+}
+#cartePopUp .carteWrapper .content .container .left .nommagasin {
+	border-bottom: 1px dotted #333;
+	width: 225px;
+	font-weight: 900;
+	font-size: 16px;
+	margin-bottom: 10px;
+	padding: 5px 0;
+}
+#cartePopUp .carteWrapper .content .container .left .adressemagasin, #cartePopUp .carteWrapper .content .container .left .horairesmagasin {
+	font-size: 14px;
+	margin: 20px 0;
+	width: 235px;
+}
+
+#cartePopUp .carteWrapper .content .container .left .infosmagasin {
+	width: 225px;	margin-top: 10px;
+	font-style:italic;	font-size: 12px;
+}
+
+#cartePopUp .carteWrapper .content .container .right {
+	width: 100px;
+	/*float: left;*/
+	font: 16px;
+	font-weight: bold;
+}
+#cartePopUp .carteWrapper .content .container .right .urunlogo {
+	margin-top: 5px;
+	cursor:pointer;
+}
+.accordionButton {
+	font-weight:900;
+	width: 300px;
+	margin-right:20px;
+	float: left;
+	border-bottom: 1px dotted #333;
+	cursor: pointer;
+	height:20px;
+	padding: 5px 0;
+}
+.accordionContent {
+	clear:both;
+	padding-top:10px;
+}
+.on {
+	font-weight:700;
+	cursor:pointer;
+	color:#900;
+}
+.over {
+	font-weight:700;
+}
+.mapCluster {
+	cursor:pointer !important;
+}
+
+.cluster {
+	color:#0066A7;
+	text-align:center;
+	font-family: 'Dosis';
+	font-size:11px;
+	font-weight:bold;
+	cursor:pointer !important;
+}
+.cluster-1{
+	background: url(../img/marqueurs/afdb1.png);
+	line-height:36px;
+	width: 58px;
+	height: 54px;
+}
+.cluster-2{
+	background: url(../img/marqueurs/afdb2.png);
+	line-height:53px;
+	width: 84px;
+	height: 84px;
+}
+.cluster-3{
+	background: url(../img/marqueurs/afdb3.png);
+	line-height:75px;
+	width: 120px;
+	height: 120px;
+}
